@@ -1,0 +1,40 @@
+ * {
+   margin: 0;
+   padding: 0;
+ }
+
+ body{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: yellow;
+  overflow: hidden;
+}
+
+.contenedor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20x;
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.numeros input{
+  width: 100px;
+  height: 30px;
+}
+
+.resultados input {
+  width: 60px;
+  height: 30px;
+}
